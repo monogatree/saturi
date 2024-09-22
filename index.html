@@ -9,18 +9,18 @@
 <body>
     <div class="container">
         <h1>사투리 변환기</h1>
-        <div class="selection">
-            <label for="dialectSelect">언어 선택:</label>
-            <select id="dialectSelect">
-                <option value="standard">표준어</option>
-                <option value="gyeongsang">경상도</option>
-                <option value="chungcheong">충청도</option>
-                <option value="jeolla">전라도</option>
-            </select>
-        </div>
         <div class="translation-section">
             <div class="input-box">
                 <textarea id="messageInput" placeholder="변환할 메시지를 입력하세요"></textarea>
+            </div>
+            <div class="selection">
+                <label for="dialectSelect">변환될 사투리:</label>
+                <select id="dialectSelect">
+                    <option value="standard">표준어</option>
+                    <option value="gyeongsang">경상도</option>
+                    <option value="chungcheong">충청도</option>
+                    <option value="jeolla">전라도</option>
+                </select>
             </div>
             <div class="output-box">
                 <textarea id="messageOutput" placeholder="결과가 여기에 표시됩니다" readonly></textarea>
