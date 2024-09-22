@@ -14,7 +14,7 @@ body {
 .container {
     text-align: center;
     width: 100%;
-    max-width: 800px;
+    max-width: 900px;
 }
 
 /* 제목 스타일 */
@@ -23,35 +23,17 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* 언어 선택 드롭다운 메뉴 스타일 */
-.selection {
-    margin-bottom: 20px;
-}
-
-label {
-    font-size: 1.2em;
-    margin-right: 10px;
-}
-
-select {
-    padding: 5px;
-    background-color: #1e1e1e;
-    color: #ffffff;
-    border: 1px solid #333;
-    border-radius: 5px;
-    font-size: 1em;
-}
-
 /* 입력 및 출력 영역을 가로로 배치 */
 .translation-section {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 20px;
 }
 
-/* 입력 박스 스타일 */
+/* 입력 및 출력 박스 스타일 */
 .input-box, .output-box {
-    width: 48%;
+    width: 40%;
 }
 
 textarea {
@@ -69,6 +51,25 @@ textarea {
 /* 출력 박스는 읽기 전용으로 설정 */
 #messageOutput {
     background-color: #2c2c2c;
+}
+
+/* 언어 선택 드롭다운 메뉴 스타일 */
+.selection {
+    margin: 0 20px;
+}
+
+label {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+select {
+    padding: 5px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 1em;
 }
 
 /* 버튼 스타일 */
